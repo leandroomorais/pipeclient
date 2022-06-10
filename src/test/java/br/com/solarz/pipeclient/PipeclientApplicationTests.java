@@ -1,4 +1,4 @@
-package br.com.zolarz.pipeclient;
+package br.com.solarz.pipeclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

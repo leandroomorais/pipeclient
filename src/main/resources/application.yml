@@ -1,0 +1,27 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          custom:
+            client-id: 953299db29b1ee1c
+            client-secret: e1809ba8c003d719f00d5256ddd0f1002eb8d60d
+            scope: access_token
+            authorization-grant-type: authorization_code
+            redirect-uri: http://localhost:8080/callback
+        provider:
+          custom:
+            authorization-uri: https://oauth.pipedrive.com/oauth/authorize
+            token-uri: https://oauth.pipedrive.com/oauth/token
+#
+#server:
+#port: 8080
+#
+#logging:
+#level:
+#org.springframework: INFO
+#
+#resourceserver:
+#  api:
+#    url: https://api.pipedrive.com/v1/users/me
+#
